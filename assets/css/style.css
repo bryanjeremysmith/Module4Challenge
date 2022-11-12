@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    align-content: center;
+    border: 1px solid purple;
+    justify-content: center;  
+    align-items: center;  
+    border-radius: 4px;
+}
+
+#topDiv {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#questionsDiv {
+    margin: 20px;
+    align-content: center;
+    justify-content: center;  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#buttons {
+    background-color: purple;
+    margin: 2px 6px 2px 6px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 8px 12px 8px 12px;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#buttons:hover {
+    background-color: #FF6EC7;
+}
+
+#answerDiv {
+    margin: 20px;
+    align-content: left;
+    justify-content: left;  
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#listItemButton {
+    border-radius: 12px;
+    padding: 8px 12px 8px 12px;
+    background-color: purple;
+    color: white;
+    justify-content: left;
+    width: 250px;
+    text-align: start;
+    margin: 2px;
+    font-size: 20px;
+}
+
+#listItemButton:hover {
+    background-color: #FF6EC7;
+}
+
+label {
+    margin: 6px;
+}
+
+input {
+    margin: 6px;
+    border: 1px solid lightgray;
+    width: 40px;
+}
+
+#questionsDiv h1 {
+    text-align: center;
+}
+
+ol, ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#questionsDiv li {
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    justify-content: left;
+}
+
+#highScoresDiv {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+#highScoresDiv h1 {
+    text-align: left;
+}
+
+#highScoresDiv li {
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: black;
+    background-color: #d9d3e9;
+    justify-content: left;
+    padding: 10px;
+}
+
+#answerResultsDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    font-size: 20px;
+    color: lightgray;
+}
+
+#viewHighScoresLink {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#countdown {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    #highScoresButtonDiv {
+        flex-direction: column;
+    }
+}
+    
+    
